@@ -10,3 +10,15 @@ const PIGRECO = 3.14159265359;
 console.log(PIGRECO);
 PIGRECO = 3.14;
 console.log(PIGRECO);
+
+let a = 4;
+let b = 7;
+let c = 5;
+let d = 6;
+let e = 12;
+let sum = ( a + b + c + d + e);
+let media = (sum / 5);
+console.log(sum);
+console.log(media);
+let finale = "La somma tra i numeri equivale a "+ sum +" e la media equivale a " + media ;
+console.log(finale);
