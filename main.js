@@ -1,0 +1,12 @@
+let num1 = 12;
+let num2 = 31;
+console.log(num1);
+console.log(num2);
+let stringa = "sternocleidomastoiedeo";
+console.log(stringa);
+stringa = "ribosoma";
+console.log(stringa);
+const PIGRECO = 3.14159265359;
+console.log(PIGRECO);
+PIGRECO = 3.14;
+console.log(PIGRECO);
