@@ -30,13 +30,13 @@ differenzapercentenario = 100 - vissuto;
 console.log(vissuto);
 console.log(differenzapercentenario);
 
-let f = 12;
-let g = 5;
-c = a + b;
-d = a - b;
-e = a * b;
-f = a / b;
-g = a ** b;
+let f = prompt();
+let g = prompt();
+let h = f + g;
+let i = f- g;
+let l = f * g;
+let m = f / g;
+let n = f ** g;
 console.log(c);
 console.log(d);
 console.log(e);
@@ -54,5 +54,6 @@ console.log(gattifuori);
 let gattimancantifila = (gattiinfila - gattifuori);
 console.log(gattimancantifila);
  
-let finaleg = "Ci sono "+ numerofile +" file di gatti e ne mancano "+ gattimancantifila +" per una nuova fila, con un avanzo di "+ gattifuori +"";
-console.log(finale);
+let finaleg = `Ci sono ${numerofile} file di gatti e ne mancano ${gattimancantifila} per una nuova fila, con un avanzo di ${gattifuori}`;
+
+console.log(finaleg);
