@@ -22,3 +22,10 @@ console.log(sum);
 console.log(media);
 let finale = "La somma tra i numeri equivale a "+ sum +" e la media equivale a " + media ;
 console.log(finale);
+
+let annocorrente = 2026;
+let annodinascita = 1976;
+vissuto = annocorrente - annodinascita;
+differenzapercentenario = 100 - vissuto;
+console.log(vissuto);
+console.log(differenzapercentenario);
