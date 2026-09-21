@@ -29,3 +29,16 @@ vissuto = annocorrente - annodinascita;
 differenzapercentenario = 100 - vissuto;
 console.log(vissuto);
 console.log(differenzapercentenario);
+
+let a = 12;
+let b = 5;
+c = a + b;
+d = a - b;
+e = a * b;
+f = a / b;
+g = a ** b;
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(g);
