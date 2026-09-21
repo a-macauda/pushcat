@@ -42,3 +42,17 @@ console.log(d);
 console.log(e);
 console.log(f);
 console.log(g);
+
+let totgatti = 44;
+let gattiinfila = 6;
+let numerofile = Math.floor(totgatti / gattiinfila);
+console.log(numerofile);
+
+let gattifuori = (totgatti % gattiinfila);
+console.log(gattifuori);
+
+let gattimancantifila = (gattiinfila - gattifuori);
+console.log(gattimancantifila);
+ 
+let finale = "Ci sono "+ numerofile +" file di gatti e ne mancano "+ gattimancantifila +" per una nuova fila, con un avanzo di "+ gattifuori +"";
+console.log(finale);
