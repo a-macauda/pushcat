@@ -1,4 +1,18 @@
-let num1 = 12;
+
+ let f = parseInt(prompt('primo numero'));
+ let g = parseInt(prompt('secondo numero'));
+let h = f + g;
+let i = f - g;
+let l = f * g;
+let m = f / g;
+let n = f ** g;
+console.log(h);
+console.log(i);
+console.log(l);
+console.log(m);
+console.log(n);
+
+ let num1 = 12;
 let num2 = 31;
 console.log(num1);
 console.log(num2);
@@ -30,18 +44,9 @@ differenzapercentenario = 100 - vissuto;
 console.log(vissuto);
 console.log(differenzapercentenario);
 
-let f = prompt();
-let g = prompt();
-let h = f + g;
-let i = f- g;
-let l = f * g;
-let m = f / g;
-let n = f ** g;
-console.log(c);
-console.log(d);
-console.log(e);
-console.log(f);
-console.log(g);
+ prompt();
+ prompt();
+
 
 let totgatti = 44;
 let gattiinfila = 6;
